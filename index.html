@@ -13,9 +13,9 @@
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-180.png">
 <title>Blockworld</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap">
 <style>
+  @font-face { font-family: 'Press Start 2P'; font-style: normal; font-weight: 400; font-display: swap; src: url(press-start-2p.woff2) format('woff2'); }
+  @font-face { font-family: 'VT323'; font-style: normal; font-weight: 400; font-display: swap; src: url(vt323.woff2) format('woff2'); }
   /* One committed look: the blocky sandbox menu world. */
   :root {
     color-scheme: dark;
@@ -157,7 +157,7 @@
 <div class="screen dim" id="sInv" hidden></div>
 <div class="screen" id="sDead" hidden style="background:rgba(120,0,0,.55)"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="three.min.js"></script>
 <script>
 (function () {
   "use strict";
