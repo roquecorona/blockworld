@@ -1,5 +1,5 @@
 // Blockworld offline support: serve the game from the cache, refresh it in the background.
-const CACHE = "blockworld-v2";
+const CACHE = "blockworld-v3";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-180.png",
   "three.min.js", "press-start-2p.woff2", "vt323.woff2"];
 self.addEventListener("install", e => {
